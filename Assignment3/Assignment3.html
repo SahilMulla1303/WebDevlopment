@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 3</title>
+
+    <style>
+        body{
+            background-color: gray;
+        }
+        header{
+            /* border: 1px solid; */
+            /* display: inline-block; */
+            text-align: center;
+        }
+
+        header>div{
+            display: inline-block;
+            background-color: #ccc;
+            margin: 0px 70px;
+            padding: 5px 30px;
+        }
+
+        #MainDiv1{
+            border: 1px solid;
+            height: 430px;
+        }
+        
+        #MainDiv1>img{
+            padding-left: 70px;
+            padding-top: 30px;
+        }
+
+        #MainDiv1>div{
+            display: inline-block;
+        }
+
+        #MainDiv{
+            border: 1px solid;
+            /* margin-bottom: 30px; */
+        }
+        #MainDiv>.FirstDiv{
+            border: 1px solid;
+            /* height: 150px; */
+            width: 200px;
+            margin-bottom: 200px;
+        }
+
+        #MainDiv>.SecondDiv{
+            border: 1px solid;
+            /* height: 150px; */
+            width: 200px;
+            /* margin-bottom: 200px; */
+        }
+        section{
+            text-align: center;
+            margin-top: 20px;
+        }
+        section>div{
+            display: inline-block;
+            border: 1px solid;
+            margin-top: 10px;
+            width: 170px;
+            margin:0px 40px;
+            background-color: #ccc;
+            text-align: center  ;
+        }
+        
+        strong{
+            display: inline-block;
+            /* border: 1px solid ; */
+            margin-top: 10px;
+
+            /* padding: 30px; */
+        }
+
+        #FirstFood{
+            border: 1px solid;
+            margin-top: 20px;
+            padding-top: 20px;
+            margin-left: 65px;
+        }
+
+        #FirstFood{
+            padding: 30px;
+            background-color: #ccc;
+            margin-right: 30px;
+        }
+
+        .FirstFood{
+            display: inline-block;
+            margin-left: 50px;
+        }
+        #SectionLine{
+            background-color: gray;
+            border: none;            
+        }
+        .Imgs{
+            display: inline-block;
+            margin: 10px;
+            margin-top: 10px;
+        }
+        footer{
+            border: 1px solid;
+            background-color: #ccc;
+        }
+        ul{
+            text-decoration: none;
+            list-style: none;
+            margin-left: 30px;
+            display: inline-block;
+        }
+
+        footer>img{
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 500px;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <header>
+        <div style="border: 1px solid;">Tacos</div>
+        <div style="border: 1px solid;">Beer</div>
+        <div style="border: 1px solid;">Wine</div>
+        <div style="border: 1px solid;">Desert</div>
+        <div style="border: 1px solid;">Reservation</div>
+    </header>
+
+    <div id="MainDiv1">
+        <img src="Img/Front.png" alt="" height="400px" width="800px">
+        <!-- <div id="MainDiv">
+            <div class="FirstDiv">
+                <strong>$1.99</strong>
+                <h4>Tacos</h4>
+            </div>
+            <div class="SecondDiv">
+                <strong>$1.99</strong>
+                <h4>Beer</h4>
+            </div>            
+        </div> -->
+    </div>
+
+    <section>
+        <div><strong>Tacos</strong><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+        <div><strong>Beer</strong><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p></div>
+        <div><strong>Wine</strong><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
+        <div><strong>Pizza</strong><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+        <div><strong>Burger</strong><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p></div>
+    </section>
+
+    <div id="FirstFood">
+        <img src="Img/FirstFood.jpg" alt="" width="400px" height="300px">
+        <div class="FirstFood">
+            <strong>Headline</strong>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum sunt fuga id totam repudiandae!</p><br><br><br><br><br><br>
+        </div>
+    </div>
+
+    <section>
+        <div class="MidLine"></div>
+        <div id="SectionLine"><strong>Instant Games</strong></div>
+        <div class="MidLine"></div>
+    </section>
+
+    <div>
+        <div class="Imgs"><img src="Img/1.jpg" alt="" height="200px" width="350px"></div>
+        <div class="Imgs"><img src="Img/2.jpg" alt="" height="200px" width="350px"></div>
+        <div class="Imgs"><img src="Img/3.jpg" alt="" height="200px" width="350px"></div>
+        <div class="Imgs"><img src="Img/4.jpg" alt="" height="200px" width="350px"></div>
+        <div class="Imgs"><img src="Img/5.jpg" alt="" height="200px" width="350px"></div>
+    </div>
+
+    <footer>
+        <ul>
+            <li>Tacos</li>
+            <li>Beer</li>
+            <li>Desserts</li>
+            <li>Reservation</li>
+        </ul>
+        <img src="Img/Front.png" alt="" height="100px" width="300px">
+    </footer>
+</body>
+</html>
