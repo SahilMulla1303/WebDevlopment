@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 7</title>
+        <style>
+            body{
+                margin: 20px;
+                padding: 0px;
+                background-color: rgb(47, 47, 47);
+            }
+            header{
+                display: flex;
+            }
+            header>div{
+                flex: 1;
+                text-align: center;
+                padding:5px;
+                background-color:gray;
+                margin: 5px;
+            }
+            section{
+                display: flex;
+                margin: 10px;
+            }
+            section>div{
+                padding: 0px;
+                margin: 0px;
+            }
+            #Img{                
+                background-color:gray;
+                flex-grow: 4;
+            }
+            #Blocks{
+                flex-grow: 3;
+            }
+            main{
+                margin: 5px;
+            }
+            main>div{
+                border: 1px solid gray;
+                align-items: center;
+                margin: 5px; 
+            }
+            #Block1{
+                height: 150px;
+                text-align: center;
+                background-color:#aaa;
+                padding-bottom: 0px;
+            }
+            #Block2{
+                height: 150px;
+                text-align: center;
+                background-color: #aaa;
+                padding-bottom: 0px;
+            }
+            article{
+                display: flex;
+                flex-grow: 1;
+            }
+            article>div{
+                background-color: #aaa;
+                margin: 5px;
+                text-align: center;
+            }
+            #Section{
+                background-color:#aaa;
+                display: flex;
+            }
+            #Section>div{
+                margin: 10px;
+                background-color:#aaa;
+            }
+            button{
+                background-color: #ccc;
+                color: white;
+            }
+            #Contain{
+                display: flex;
+                flex: 1;
+            }
+            #Contain>div{
+                flex-grow: 1;
+                margin: 5px;
+                background-color:#aaa;
+            }
+            #Contain1{
+                display: flex;
+                flex-grow: 3;
+                background-color:#aaa; 
+            }
+            #Div2{
+                margin-left: 140px;
+                margin-right: 80px;
+            }
+            footer{
+                display: flex;
+                background-color: rgb(157, 154, 154);
+            }
+            footer>div{
+                text-decoration: none;
+            }
+            #Footer1>ul{
+                list-style: none;
+                margin-left: 100px;
+            }
+            li>a{
+                margin: 5px;
+                text-decoration: none;
+                color: white;
+            }
+            #Footer2{
+                margin-left: 300px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!--Header Start-->
+        <header>
+            <div>Tacos</div>
+            <div>Beers</div>
+            <div>Wines</div>
+            <div>Deserts</div>
+            <div>Reservation</div>
+        </header>
+
+        <section>
+            <div id="Img"><img src="img.jpg" height="311px"  width="100%" style="margin: 5px;" alt=" It is Image"></div>
+            <div id="Blocks">
+                <main>
+                    <div id="Block1">
+                        <h2>$1.99</h2>
+                        <p>Tacos</p>
+                    </div>
+                    <div id="Block2">
+                        <h2>$1.99</h2>
+                        <p>Beer</p>
+                    </div>
+                </main>
+            </div>
+        </section>
+
+        <article>
+            <div>
+                <h3>Tacos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <h3>Beer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <h3>Wine</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <h3>Pizza</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <h3>Burger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </article>
+
+        <section id="Section">
+            <div><img src="img.jpg"  alt="This is Image"></div>
+            <div id="Headline">
+                <h3>Headline</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae et, asperiores sequi modi omnis, quas veritatis expedita animi fuga harum atque sit, in voluptatibus repudiandae facere pariatur. Hic, error incidunt.</p>
+                <button>Learn More</button>
+            </div>
+        </section>
+
+        <section id="Contain">
+            <div><img src="img.jpg" height="200px" width="300px" alt="This is Image"></div>
+            <div><img src="img.jpeg"  height="200px" width="300px" alt="This is Image"></div>
+            <div><img src="img.jpg" height="200px" width="300px" alt="This is Image"></div>
+        </section>
+
+        <section id="Contain1">
+            <div><img src="img.jpg" height="200px" width="300px" alt="This is Image"></div>
+            <div id="Div2"><img src="img.jpg"  height="200px" width="300px" alt="This is Image"></div>
+        </section>
+        
+        <footer>
+            <div id="Footer1">
+                <ul>
+                <li><a href="#">Tacos</a></li>
+                <li><a href="#">Beer</a></li>
+                <li><a href="#">Desserts</a></li>
+                <li><a href="#">Reservation</a></li>
+            </ul>
+            </div>
+            <div id="Footer2"><img src="img.jpg" height="70px" width="150px" alt="This Is Image"></div>
+        </footer>        
+    </body>
+</html>
