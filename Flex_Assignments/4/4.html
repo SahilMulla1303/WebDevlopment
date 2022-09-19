@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>4</title>
+    <style>
+        main{
+            border: 1px solid;
+        }
+        header{
+            border: 1px solid;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+        }
+        nav{
+            border: 1px solid;
+            margin: 5px;
+            display: flex;
+        }
+        nav>div{
+            flex-grow: 1;
+            border: 1px solid;
+            height: 25px;
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section{
+            display: flex;
+        }
+        aside{
+            border: 1px solid;
+            margin: 5px;
+            flex-grow: 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        aside>ul{
+            list-style: none;
+        }
+        li{
+            margin: 30px;
+            font-size: 25px;
+        }
+        #Outer{
+            flex-grow: 3;
+            border: 1px solid;
+            margin: 5px;
+            display: flex;
+        }
+        #Outer>div{
+            flex-grow: 1;
+            /* border: 1px solid; */
+            margin: 5px;
+        }
+        .Inner{
+            border: 1px solid;
+            margin: 5px;
+        }
+        .Inner>div{
+            border: 1px solid;
+            height: 200px;
+            width: 200px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Header</h1>
+        </header>
+        <nav>
+            <div style="border: none;"></div> 
+            <div>Home</div>
+            <div>About</div>
+            <div>Help</div>
+            <div>Contact</div>
+        </nav>
+        <section>
+            <aside>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Help</li>
+                    <li>Contact</li>
+                </ul>
+            </aside>
+            <div id="Outer">
+                <div>
+                    Product 1
+                    <div class="Inner">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div>
+                    Product 2
+                    <div class="Inner">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div>
+                    Product 3
+                    <div class="Inner">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
